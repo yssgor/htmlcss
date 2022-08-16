@@ -1,79 +1,77 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ementa Front-End</title>
-    <style>
-        
-        h1{
-            text-align: center;
-            font-family: 'Segoe UI';
-        }
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Sobre Baberia Alura</title>
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>  
+    <link href="https://fonts.googleapis.com/css?family=Montserrat&amp;display=swap" rel="stylesheet">
+  
+  </head>
+  <body>
+    <header>
+      <div class="caixa">
+          <h1><img src="logo.png" alt="O logo da barbearia Alura"></h1>
+          <nav>
+              <ul>
+                  <li><a href="../curso_00/index.html">Home</a></li>
+                  <li><a href="../curso_01/produtos.html">Produtos</a></li>
+                  <li><a href="#">Contato</a></li>
+              </ul>
+          </nav>
+      </div>
+    </header>
 
-        p,h2,h3,a{
-            font-family: 'Segoe UI';
-        }
-        
-        .objetivos{
-            padding-right: 30%;
-            padding-left: 30%;
-            margin-top: 5%;
-        }
-        .aulas-cursos{
-            padding-right: 30%;
-            padding-left: 30%;
-        }
-    </style>
-</head>
-<body>
-    <div class="head">
-        <h1>Formação Front-End</h1>
-    </div>
+    <img class="banner" src="banner.jpg">
 
-    <div class="objetivos">
-        <ul>
-            <li><h2>Objetivos</h2></li>
-            <p>Nosso foco aqui é a criação de páginas web de maneira que você tenha a base necessária para estudar os frameworks mais famosos do mercado. Por isso, vamos nos aprofundar ainda mais em HTML e CSS e principalmente no JavaScript já que essa é a linguagem base da web.</p>
-            <li><h3>Periodo</h3></li>
-            <p>Inicio:</p>
-            <p>Finalização:</p>
-        </ul>
-    <p>------------------------------------------------------------------------------------------</p>
-    </div>
-    
-    <div class="aulas-cursos">
-        <ul>
-            <li>
-                <a href="./html_css/curso_00/">00 - HTML5 E CSS3 PARTE 1</a>
-                <p>Conteúdo</p>
-                <ol><p>Aprenda o que é o HTML e o CSS</p></ol>
-                <ol><p>Entenda a estrutura básica de um arquivo HTML</p></ol>
-                <ol><p>Utilize o navegador para inspecionar elementos</p></ol>
-                <ol><p>Aprenda a definir estilos para elementos usando o CSS</p></ol>
-                <ol><p>Desenvolva um página Web</p></ol>
-            </li>
-            <li>
-                <a href="./html_css/curso_01/">01 - HTML5 E CSS3 PARTE 2</a>
-                <p>Conteúdo</p>
-                <ol><p>Aprenda a estrutura da página HTML</p></ol>
-                <ol><p>Navegue entre páginas web</p></ol>
-                <ol><p>Conheça reset.css e o posicionamento pelo CSS</p></ol>
-                <ol><p>Entenda a diferença entre inline e block</p></ol>
-                <ol><p>Lide com bordas e pseudo-classes CSS</p></ol>
-            </li>
-            <li>
-                <a href="./html_css/curso_02/">01 - HTML5 E CSS3 PARTE 2</a>
-                <p>Conteúdo</p>
-                <ol><p>Crie formulários complexos</p></ol>
-                <ol><p>Trabalhe com campos para celulares</p></ol>
-                <ol><p>Apresente informações em tabelas</p></ol>
-                <ol><p>Use estilos para formulários, campos e tabelas</p></ol>
-                <ol><p>Entenda a hierarquia no CSS</p></ol>
-                <ol><p>Trabalhe com transformações e transições</p></ol>
-            </li>
-        </ul>
-    </div>
-</body>
+    <main>
+      <section class="principal">
+        <h2 class="titulo-principal">Sobre a Barbearia Alura</h2>
+
+        <img class="utensilios" src="utensilios.jpg" alt="Utensilios de uma barberia">
+
+        <p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
+
+        <p id="missao"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
+
+        <p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+      </section>
+
+      <section class="mapa">
+        <h3 class="titulo-principal">Nosso estabelecimento</h3>
+        <p>Nosso estabelecimento esta localizado no coração da cidade</p>
+        <div class="mapa-conteudo">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d116964.27855344524!2d-46.64636260692117!3d-23.63538228092535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce5a2b2ed7f3a1%3A0xab35da2f5ca62674!2sCaelum%20-%20Escola%20de%20Tecnologia!5e0!3m2!1spt-BR!2sbr!4v1626823089674!5m2!1spt-BR!2sbr" width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+      </section>
+
+      <section class="beneficios">
+        <h3 class="titulo-principal"> Beneficios </h3>
+
+        <div class="conteudo-beneficios">
+          <ul class="lista-beneficios">
+            <li class="itens">Atendimento aos clientes</li>
+            <li class="itens">Espaço diferenciado</li>
+            <li class="itens">Localização</li>
+            <li class="itens">Profissionais qualificado</li>
+            <li class="itens">Pontualidade</li>
+            <li class="itens">Limpeza</li>
+          </ul><img src="beneficios.jpg" class="imagem-beneficios">
+  
+        </div>
+        
+        <div class="video">
+          <iframe width="100%" height="315" src="https://www.youtube.com/embed/wcVVXUV0YUY" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        
+      </section>
+    </main>
+    <footer>
+      <img src="logo-branco.png" alt="O logo da barbearia Alura">
+      <p class="copyright">&copy; Copyright Babearia Alura - 2021</p>
+    </footer>
+  </body>
 </html>
